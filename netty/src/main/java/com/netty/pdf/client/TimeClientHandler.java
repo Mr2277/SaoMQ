@@ -9,7 +9,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 
 import java.util.logging.Logger;
 
-public class TimeClientHandler extends /*ChannelInboundHandlerAdapter*/ SimpleChannelInboundHandler<String> {
+public class TimeClientHandler extends /*ChannelInboundHandlerAdapter*/ SimpleChannelInboundHandler<ByteBuf> {
     private static final Logger logger = Logger
             .getLogger(TimeClientHandler.class.getName());
 
@@ -45,7 +45,7 @@ public class TimeClientHandler extends /*ChannelInboundHandlerAdapter*/ SimpleCh
 
     }
 
-    protected void channelRead0(ChannelHandlerContext channelHandlerContext, String s) throws Exception {
+    protected void channelRead0(ChannelHandlerContext channelHandlerContext, ByteBuf byteBuf) throws Exception {
         System.out.println("client--channelRead0");
     }
 
