@@ -5,10 +5,11 @@ import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.channel.SimpleChannelInboundHandler;
 
 import java.util.logging.Logger;
 
-public class TimeClientHandler extends ChannelInboundHandlerAdapter {
+public class TimeClientHandler extends /*ChannelInboundHandlerAdapter*/ SimpleChannelInboundHandler<String> {
     private static final Logger logger = Logger
             .getLogger(TimeClientHandler.class.getName());
 
@@ -32,13 +33,20 @@ public class TimeClientHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg)
             throws Exception {
+        System.out.println("client--channelRead");
         ByteBuf buf = (ByteBuf) msg;
         byte[] req = new byte[buf.readableBytes()];
         buf.readBytes(req);
         String body = new String(req, "UTF-8");
         System.out.println("Now is : " + body);
-        //ctx.writeAndFlush(firstMessage);
 
+        ByteBuf resp = Unpooled.copiedBuffer("fuckclinent".getBytes());
+        ctx.writeAndFlush(resp);
+
+    }
+
+    protected void channelRead0(ChannelHandlerContext channelHandlerContext, String s) throws Exception {
+        System.out.println("client--channelRead0");
     }
 
     @Override
