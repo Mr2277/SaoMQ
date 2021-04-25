@@ -7,16 +7,17 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
 
-public class MyServerHandler extends SimpleChannelInboundHandler<String> {
+public class MyServerHandler extends SimpleChannelInboundHandler<ByteBuf> {
 
     @Override
-    protected void channelRead0(ChannelHandlerContext channelHandlerContext, String s) throws Exception {
-
+    protected void channelRead0(ChannelHandlerContext channelHandlerContext, ByteBuf s) throws Exception {
+        System.out.println("MyServer--channelRead0");
     }
 
     @Override
-    public void channelRead(ChannelHandlerContext channelHandlerContext, Object msg) {
-        System.out.println("MyServer--" + msg);
+    public void channelRead(ChannelHandlerContext channelHandlerContext, Object msg) throws Exception {
+        System.out.println("MyServer--channelRead");
+        super.channelRead(channelHandlerContext, msg);
     }
 
     @Override
@@ -24,13 +25,13 @@ public class MyServerHandler extends SimpleChannelInboundHandler<String> {
         System.out.println("MyServer--handlerAdded");
     }
 
+
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         //服务端接收到客户端上线通知
-        System.out.println("ServerAc");
-        Channel incoming = ctx.channel();
-        System.out.println("SimpleChatClient:" + incoming.remoteAddress()+"在线");
+        System.out.println("MyServer--channelActive");
         ByteBuf byteBuf = Unpooled.copiedBuffer("dfsdfs".getBytes());
-        //tx.channel().writeAndFlush(byteBuf);
+        ctx.channel().writeAndFlush(byteBuf);
     }
+
 }

@@ -32,7 +32,8 @@ public class ServerChannelHandler extends SimpleChannelInboundHandler<ByteBuf> {
     //消息处理的方法
     @Override
     protected void channelRead0(ChannelHandlerContext chc, ByteBuf byteBuf) throws Exception {
-        System.out.println("接收到客户端的消息" + byteBuf.toString());
+        //System.out.println("接收到客户端的消息" + byteBuf.toString());
+        System.out.println("channelRead0");
         /*
         //将消息群发给其他客户端  unpooled 未共享
         for (Channel channel : channels) {
@@ -49,4 +50,5 @@ public class ServerChannelHandler extends SimpleChannelInboundHandler<ByteBuf> {
         System.out.println("channelRead");
         super.channelRead(ctx, msg);
     }
+
 }

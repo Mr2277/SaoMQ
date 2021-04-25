@@ -18,7 +18,7 @@ public class MyClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
         System.out.println("client---channelActive");
         String sendInfo = "Hello 这里是客户端  你好啊！";
         //ByteBuf byteBuf = Unpooled.copiedBuffer(sendInfo.getBytes());
-        //ctx.writeAndFlush(Unpooled.copiedBuffer(sendInfo, CharsetUtil.UTF_8)); // 必须有flush
+        ctx.writeAndFlush(Unpooled.copiedBuffer(sendInfo, CharsetUtil.UTF_8)); // 必须有flush
 
     }
 
