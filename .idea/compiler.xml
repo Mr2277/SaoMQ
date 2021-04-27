@@ -9,6 +9,7 @@
         <module name="common" />
         <module name="nameserver" />
         <module name="netty" />
+        <module name="remoting" />
       </profile>
     </annotationProcessing>
   </component>

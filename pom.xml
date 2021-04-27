@@ -12,6 +12,7 @@
         <module>netty</module>
         <module>nameserver</module>
         <module>common</module>
+        <module>remoting</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
@@ -19,6 +20,12 @@
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
             <version>4.1.63.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.4</version>
         </dependency>
 
     </dependencies>

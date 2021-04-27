@@ -5,6 +5,9 @@ import com.lls.common.annotation.ConfigResolve;
 
 public class NameConfig {
 
-    @ConfigResolve(value = "nameServer.IP")
-    private String nameServerIP;
+    @ConfigResolve(value = "server.ip")
+    private String serverIP;
+
+    @ConfigResolve(value = "server.port")
+    private Integer serverPort;
 }

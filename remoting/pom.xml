@@ -9,20 +9,19 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>nameserver</artifactId>
+    <artifactId>remoting</artifactId>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>7</source>
+                    <target>7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
-    <dependencies>
-        <dependency>
-            <artifactId>common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <groupId>com.lls</groupId>
-        </dependency>
 
-        <dependency>
-            <artifactId>remoting</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <groupId>com.lls</groupId>
-        </dependency>
-
-    </dependencies>
 </project>

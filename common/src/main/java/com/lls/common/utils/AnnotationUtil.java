@@ -1,4 +1,4 @@
-package com.lls.nameserver.utils;
+package com.lls.common.utils;
 
 
 import com.lls.common.annotation.ConfigResolve;
