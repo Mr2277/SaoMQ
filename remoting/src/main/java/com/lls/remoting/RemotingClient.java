@@ -1,6 +1,5 @@
 package com.lls.remoting;
 
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.lls.remoting.bean.MessageInfo;
 import io.netty.bootstrap.Bootstrap;
@@ -10,6 +9,9 @@ import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.codec.LineBasedFrameDecoder;
+import io.netty.handler.codec.string.StringDecoder;
+import io.netty.handler.codec.string.StringEncoder;
 
 public class RemotingClient implements RemotingService {
 
@@ -29,6 +31,9 @@ public class RemotingClient implements RemotingService {
             .channel(NioSocketChannel.class)
             .handler(new ChannelInitializer<SocketChannel>() {
                 protected void initChannel(SocketChannel socketChannel) throws Exception {
+                    socketChannel.pipeline().addLast(new LineBasedFrameDecoder(1024));
+                    socketChannel.pipeline().addLast(new StringDecoder());
+                    socketChannel.pipeline().addLast(new StringEncoder());
                     socketChannel.pipeline().addLast(new RemotingClientHandler());
                 }
             });

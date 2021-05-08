@@ -2,31 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43516dbd-8dd0-45a0-a15e-7cc8375d04b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/NameServerStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/bean/ClientAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/bean/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/bean/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/bean/ProducerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/controller/NameServerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/controller/ProducerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remoting/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remoting/remoting.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/bean/MessageInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nameserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nameserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/config/NameConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/config/NameConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/utils/AnnotationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lls/common/utils/AnnotationUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nameserver/src/main/resources/nameserver.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nameserver/src/main/resources/nameserver.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nameserver/target/classes/com/lls/nameserver/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/nameserver/target/classes/com/lls/nameserver/bean/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nameserver/target/classes/com/lls/nameserver/config/NameConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/nameserver/target/classes/com/lls/nameserver/config/NameConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nameserver/target/classes/com/lls/nameserver/utils/AnnotationUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nameserver/target/classes/nameserver.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nameserver/target/classes/nameserver.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/bean/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/bean/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nameserver/target/classes/com/lls/nameserver/bean/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/nameserver/target/classes/com/lls/nameserver/bean/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nameserver/target/classes/com/lls/nameserver/controller/ProducerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/nameserver/target/classes/com/lls/nameserver/controller/ProducerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingClient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingClient$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingClient$RemotingClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingClient$RemotingClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingServer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingServer$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingServer$RemotingServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingServer$RemotingServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/remoting/target/classes/com/lls/remoting/RemotingService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/bean/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="153">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,10 +49,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +56,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="964">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="408">
+              <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,29 +80,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
+            <state relative-caret-position="476">
               <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/NameServerStart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -171,9 +157,9 @@
         <option value="$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/bean/MessageInfo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/controller/ProducerController.java" />
-        <option value="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/bean/Producer.java" />
-        <option value="$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingClient.java" />
         <option value="$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingServer.java" />
+        <option value="$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingClient.java" />
+        <option value="$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/bean/Producer.java" />
       </list>
     </option>
   </component>
@@ -208,10 +194,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-62" />
-    <option name="y" value="29" />
-    <option name="width" value="1622" />
-    <option name="height" value="1022" />
+    <option name="width" value="1280" />
+    <option name="height" value="674" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,6 +203,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,18 +216,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619518157327" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rocketmq" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620432614610" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBucket" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -344,7 +328,9 @@
       <workItem from="1619192782189" duration="1296000" />
       <workItem from="1619228603966" duration="24611000" />
       <workItem from="1619318368413" duration="14395000" />
-      <workItem from="1619447251424" duration="11077000" />
+      <workItem from="1619447251424" duration="16778000" />
+      <workItem from="1619834212290" duration="159000" />
+      <workItem from="1620432475891" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1619193750628</created>
@@ -378,13 +364,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51379000" />
+    <option name="totallyTimeSpent" value="57319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1012" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2630458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -393,7 +378,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32915717" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32915717" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32915717" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.64123005" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -401,9 +386,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32915717" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2881549" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32687926" />
+      <window_info anchor="right" id="RestServices" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -448,13 +434,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.63.Final/netty-all-4.1.63.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="40" column="13" selection-start-line="39" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/netty/chat/demo1/SimpleChatClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -880,24 +859,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.63.Final/netty-all-4.1.63.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="187">
+          <caret line="303" selection-start-line="303" selection-end-line="303" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/NameServerStart.java">
+    <entry file="file://$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/bean/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="964">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="153">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -908,17 +880,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/bean/Producer.java">
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="408">
+          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -927,11 +895,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/remoting/src/main/java/com/lls/remoting/RemotingServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+        <state relative-caret-position="442">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nameserver/src/main/java/com/lls/nameserver/NameServerStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
