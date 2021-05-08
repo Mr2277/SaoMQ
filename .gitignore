@@ -5,5 +5,20 @@
 # IntelliJ project files
 .idea
 *.iml
+*/target
 out
 gen
+将删除 .gitignore
+将删除 common/src/main/resources/
+将删除 common/src/test/
+common/target/*
+将删除 nameserver/src/main/java/com/lls/nameserver/utils/
+将删除 nameserver/src/test/
+nameserver/target/*
+将删除 netty/src/main/resources/
+将删除 netty/src/test/
+netty/target/*
+将删除 remoting/src/main/resources/
+将删除 remoting/src/test/
+remoting/target/*
+将删除 remoting/target/generated-sources/
